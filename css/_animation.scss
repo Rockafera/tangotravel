@@ -1,0 +1,97 @@
+@-webkit-keyframes image-float {
+    0% {
+      transform: translateZ(40rem);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translateZ(-500rem) translateX(150rem);
+      opacity: 0.8;
+    }
+
+    60% {
+      transform: translateZ(-1500rem) translateX(800rem);
+      opacity: 0.6;
+    }
+
+    80% {
+      transform: translateZ(-50rem) translateX(100rem);
+      opacity: 0.8;
+    }
+
+    100% {
+      transform: translateZ(40rem);
+      opacity: 1;
+    }
+  }
+
+  @keyframes image-float {
+    0% {
+      transform: translateZ(40rem);
+      opacity: 1;
+    }
+
+    40% {
+      transform: translateZ(-500rem) translateX(150rem);
+      opacity: 0.8;
+    }
+
+    60% {
+      transform: translateZ(-1500rem) translateX(800rem);
+      opacity: 0.6;
+    }
+
+    80% {
+      transform: translateZ(-50rem) translateX(100rem);
+      opacity: 0.8;
+    }
+
+    100% {
+      transform: translateZ(40rem);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes contact-bg {
+    0% {
+      background-color: #708ecf;
+    }
+
+    25% {
+      background-color: #cbcadc;
+    }
+
+    50% {
+      background-color: #ffdbb9;
+    }
+
+    75% {
+      background-color: #978785;
+    }
+
+    100% {
+      background-color: #8f87b9;
+    }
+  }
+
+  @keyframes contact-bg {
+    0% {
+      background-color: #a1b1d4;
+    }
+
+    25% {
+      background-color: #cbcadc;
+    }
+
+    50% {
+      background-color: $main-peach;
+    }
+
+    75% {
+      background-color: #978785;
+    }
+
+    100% {
+      background-color: #d5d2e4;
+    }
+  }

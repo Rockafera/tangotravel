@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description"
+    content="Formulario de contacto de Tango Travel. Si estas interesado en recibir mas información sobre nuestros viajes ingresa aquí." />
+  <meta name="keywords" content="formulario de consultas, consultas viajes, datos de contacto Tango Travel, contacto" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Vollkorn:ital,wght@1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <title>Contacto</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon-16x16.png">
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand f-2 fs-2 navbarTitle ">Tango Travel Agency</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNavegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="menuNavegacion" class="collapse navbar-collapse justify-content-sm-start justify-content-lg-end ">
+          <ul class="navbar-nav ms-3 ">
+            <li class="nav-item"><a class="nav-link fs-4" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link fs-4" href="destinos.html">Destinos</a></li>
+            <li class="nav-item"><a class="nav-link fs-4" href="aboutus.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link fs-4" href="excursiones.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link fs-4" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- End of Header -->
+
+  <!-- Contact -->
+  <section class="contactImage">
+    <h1 class="text-center mb-5 mt-3 commonTitle">Contactanos</h1>
+    <div class="container bg-light mt-4 mb-4 form-border pb-4">
+      <form class="row g-3 ">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label fw-bold">Nombre</label>
+          <input type="text" class="form-control" id="firstName" required placeholder="Nombre">
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label fw-bold">Apellido</label>
+          <input type="text" class="form-control" id="lastName" required placeholder="Apellido">
+        </div>
+        <div class="col-md-8">
+          <label for="emailInfo" class="form-label fw-bold">E-mail</label>
+          <input type="email" class="form-control" id="emailInfo" required placeholder="Introduzca su e-mail">
+        </div>
+        <div class="col-md-4">
+          <label for="phoneNumber" class="form-label fw-bold">Telefono</label>
+          <input type="text" class="form-control" id="phoneNumber" placeholder="Numero de telefono">
+        </div>
+        <div class="col-md-12">
+          <label for="comments" class="form-label fw-bold">Comentarios</label>
+          <textarea class="form-control" id="comments" rows="10" required
+            placeholder="Escriba su mensaje aqui"></textarea>
+        </div>
+        <div class="col-md-12 text-center">
+          <button type="submit" class="btn btnTour w-50 fs-5">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- End of Contact -->
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="anchoFooter">
+      <div class="redes">
+        <a href="https://www.facebook.com/" target="_blank"> <i class="bi bi-facebook fs-1"></i></a>
+        <a href="https://wa.me/541176150927" target="_blank"><i class="bi bi-whatsapp fs-1"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram fs-1"></i></a>
+        <a href="https://www.twitter.com/" target="_blank"><i class="bi bi-twitter fs-1"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End of Footer -->
+
+</body>
+
+</html>

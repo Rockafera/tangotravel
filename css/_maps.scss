@@ -1,0 +1,8 @@
+$socialMedia:(bi-facebook:#3b5998, bi-whatsapp:#20c05b, bi-instagram:#8a3ab9, twitter:#00acee);
+
+@each $red, $color in $socialMedia {
+    .#{$red} {
+        color:$color;
+    }
+}
+
